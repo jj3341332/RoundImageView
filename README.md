@@ -1,4 +1,10 @@
 # Android RoundImageView控件
+
+
+[![](https://jitpack.io/v/jj3341332/RoundImageView.svg)](https://jitpack.io/#jj3341332/RoundImageView)
+
+---
+
 ##### 高仿淘宝的商品图  微信朋友圈个人头像 效果如下
 
 ![image](https://raw.githubusercontent.com/jj3341332/RoundImageView/master/images/example.png)
@@ -8,7 +14,30 @@
 ### 联系方式
 ![image](https://raw.githubusercontent.com/jj3341332/RoundImageView/master/images/AndroidQQqun.png)
 
-### 使用方法
+# 如何使用？
+## 第一步
+在项目的build.gradle中添加如下代码
+
+```
+allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
+```
+##第二步
+在模块的build.gradle中添加如下代码
+
+
+```
+dependencies {
+	        compile 'com.github.jj3341332:RoundImageView:1.0'
+	}
+```
+
+
+### 实例代码
     <com.mrj.library.RoundImageView
         android:layout_marginTop="40dp"
         android:layout_gravity="center_horizontal"
